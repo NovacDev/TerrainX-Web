@@ -172,12 +172,13 @@
         </section>
 
         <div class="download-section">
-            <a href="https://github.com/..." class="download-btn" target="_blank">🚀 Get TerrainX on GitHub and start building epic worlds!</a>
+            <h2> Download TerrainX </h2>
+            <a href="https://github.com/NovacDev/TerrainX" class="download-btn" target="_blank">🚀 Get TerrainX on GitHub</a>
         </div>
     </main>
 
     <footer>
-        &copy; 2025 TerrainX | NoVac Games | All right reserverd
+        &copy; 2025 TerrainX | NoVac Games | All rights reserved
     </footer>
 
 </body>

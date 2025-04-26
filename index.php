@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proiect Nou</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f8f9fa;
+            color: #333;
+        }
+
+        header {
+            background-color: #202020;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 5px 5px;
+            color: white;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        .nav-button {
+            background-color: #02aae8;
+            color: white;
+            padding: 0.6rem 1.2rem;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1rem;
+            transition: background-color 0.3s ease;
+        }
+
+        .nav-button:hover {
+            background-color: #0299d3;
+        }
+
+        .hero {
+            background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('photos/img1.jpg') center/cover no-repeat;
+            color: white;
+            text-align: center;
+            padding: 12rem 2rem;
+        }
+
+        .hero h2 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        main {
+            padding: 4rem 2rem;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        main h2 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        main p {
+            line-height: 1.6;
+            margin-bottom: 2rem;
+        }
+
+        .download-section {
+            text-align: center;
+            margin-top: 3rem;
+        }
+
+        .download-btn {
+            display: inline-block;
+            background-color: #02aae8;
+            color: white;
+            padding: 0.8rem 2rem;
+            text-decoration: none;
+            font-size: 1.2rem;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .download-btn:hover {
+            background-color: #0299d3;
+        }
+
+        footer {
+            text-align: center;
+            padding: 2rem 1rem;
+            background-color: #202020;
+            color: white;
+            margin-top: 4rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>TerrainX</h1>
+        <a href="https://novacgames.ct.ws" class="nav-button" target="_blank">NoVac Website</a>
+    </header>
+
+    <section class="hero">
+        <h2>A fork of Terrain3D</h2>
+        <p>Modified by NoVac Games specially designed for large and long-term projects, strong performance and stability.</p>
+    </section>
+
+    <main>
+        <h2>Features</h2>
+        <ul>
+            <li>Written in C++, with mesh processing done by the GPU for the highest performance</li>
+            <li>Terrains ranging from 64x64m up to 65.5x65.5km (4295 km²) in variable sized regions</li>
+            <li>Up to 32 texture sets using albedo, normal, roughness, and height</li>
+            <li>Up to 10 Levels of Detail (LODs)</li>
+            <li>Geometric Clipmap Mesh Terrain, as used in The Witcher 3</li>
+            <li>Foliage instancing</li>
+            <li>Imports heightmaps from 3rd party tools</li>
+            <li>Designed as a GDExtension plugin, compatible with official Godot Engine builds</li>
+            <li>Accessible from GDScript, C#, and any language supported by Godot</li>
+            <li>Fully Open Source</li>
+        </ul>
+
+        <section style="display: flex; align-items: center; margin: 4rem 0;">
+            <img src="photos/img3.jpg" alt="Photo Terrain" style="width: 45%; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+            <div style="margin-left: 2rem;">
+                <h3 style="font-size: 1.8rem; margin-bottom: 1rem;">Realistic Environments</h3>
+                <p style="line-height: 1.6;">
+                    TerrainX lets you create complex and realistic environments for your games. With support for high-resolution textures, 
+                    multiple levels of detail, and a powerful vegetation instantiation system, you'll be able to generate vast worlds without compromising performance.
+                </p>
+            </div>
+        </section>
+
+        <section style="display: flex; align-items: center; margin: 4rem 0;">
+            <img src="photos/img2.jpg" alt="Photo Terrain" style="width: 45%; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+            <div style="margin-left: 2rem;">
+                <h3 style="font-size: 1.8rem; margin-bottom: 1rem;">Advanced Terrain Editing</h3>
+                <p style="line-height: 1.6;">
+                    Shape and sculpt your terrains in real time with powerful, precise tools — perfect for projects of any size.
+                </p>
+            </div>
+        </section>
+
+        <section style="display: flex; align-items: center; margin: 4rem 0;">
+            <img src="photos/img4.jpg" alt="Photo Terrain" style="width: 45%; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+            <div style="margin-left: 2rem;">
+                <h3 style="font-size: 1.8rem; margin-bottom: 1rem;">Seamless World Streaming</h3>
+                <p style="line-height: 1.6;">
+                    Automatically stream only the needed parts of the world, ensuring top performance even in massive open-world environments.
+                </p>
+            </div>
+        </section>
+
+        <section style="display: flex; align-items: center; margin: 4rem 0;">
+            <img src="photos/img5.jpg" alt="Photo Terrain" style="width: 45%; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+            <div style="margin-left: 2rem;">
+                <h3 style="font-size: 1.8rem; margin-bottom: 1rem;">Dynamic Weather and Seasons</h3>
+                <p style="line-height: 1.6;">
+                    Easily integrate dynamic weather effects and seasonal changes to bring your worlds to life with realism and variety.
+                </p>
+            </div>
+        </section>
+
+        <div class="download-section">
+            <a href="https://github.com/..." class="download-btn" target="_blank">🚀 Get TerrainX on GitHub and start building epic worlds!</a>
+        </div>
+    </main>
+
+    <footer>
+        &copy; 2025 TerrainX | NoVac Games | All right reserverd
+    </footer>
+
+</body>
+</html>

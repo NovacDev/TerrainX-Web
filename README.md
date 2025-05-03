@@ -1,2 +1,0 @@
-# TerrainX-Web
-TerrainX website
